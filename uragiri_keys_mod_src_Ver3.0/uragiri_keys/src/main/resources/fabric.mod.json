@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "uragiri_keys",
+  "version": "${version}",
+  "name": "Uragiri Skill Keys",
+  "description": "裏切り者サバイバル用: スキルのキー割り当て、口封じのミュートとなりすまし表示。",
+  "authors": [
+    "uragiri_keys"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.uragiri.keys.UragiriKeysClient"
+    ],
+    "voicechat": [
+      "com.uragiri.keys.MutePlugin"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "mixins": [
+    {
+      "config": "uragiri_keys.mixins.json",
+      "environment": "client"
+    }
+  ]
+}

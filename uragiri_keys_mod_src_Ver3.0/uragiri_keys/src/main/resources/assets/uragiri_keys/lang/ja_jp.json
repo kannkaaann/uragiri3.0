@@ -1,0 +1,12 @@
+{
+  "category.uragiri_keys": "裏切りスキル",
+  "key.uragiri_keys.lockon": "ロックオン",
+  "key.uragiri_keys.zombie": "ゾンビパーティー",
+  "key.uragiri_keys.randomtp": "全員場所入れ替え",
+  "key.uragiri_keys.invisibility": "全員透明化",
+  "key.uragiri_keys.scatter": "全員バラバラ",
+  "key.uragiri_keys.gag": "口封じ",
+  "key.uragiri_keys.deathsentence": "死の宣告",
+  "key.uragiri_keys.baggage": "手荷物入れ替え",
+  "key.uragiri_keys.buff": "攻撃力上昇 ON/OFF切替"
+}
